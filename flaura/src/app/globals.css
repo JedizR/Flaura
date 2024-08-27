@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* styles/globals.css */
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('/fonts/Apercu Pro Font Family/apercu_regular_pro.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('/fonts/Apercu Pro Font Family/apercu_bold_pro.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('/fonts/Apercu Pro Font Family/apercu_italic_pro.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('/fonts/Apercu Pro Font Family/apercu_bold_italic_pro.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('/fonts/Apercu Pro Font Family/apercu_medium_pro.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('/fonts/Apercu Pro Font Family/apercu_medium_italic_pro.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Cera Pro', sans-serif;
+}
+
+
+/* Inside your global CSS file (e.g., styles/globals.css) */
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('/fonts/Cera Pro/Fontspring-DEMO-cerapro-thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('/fonts/Cera Pro/Fontspring-DEMO-cerapro-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('/fonts/Cera Pro/Fontspring-DEMO-cerapro-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('/fonts/Cera Pro/Fontspring-DEMO-cerapro-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('/fonts/Cera Pro/Fontspring-DEMO-cerapro-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('/fonts/Cera Pro/Fontspring-DEMO-cerapro-black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}

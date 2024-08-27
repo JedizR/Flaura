@@ -1,6 +1,0 @@
-{
-    "css.customData": [
-        ".vscode/css_custom_data.json"
-    ],
-    "prettier.prettierPath": "./node_modules/prettier"
-}

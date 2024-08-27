@@ -19,12 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="w-full">
-  <body className={`${inter.className} text-white`}>
+  <body className={`${inter.className} text-white bg-black`}>
     <Navbar />
 
     {/* Background Image positioned absolutely */}
     <Image
-        className="w-full max-h-[3878px] object-cover blur- z-[10] absolute"
+        className="w-full max-h-[3878px] object-cover z-[10] absolute"
         src={BG}
         alt="Background Image"
       />

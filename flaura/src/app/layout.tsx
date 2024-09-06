@@ -24,7 +24,7 @@ export default function RootLayout({
 
     {/* Background Image positioned absolutely */}
     <Image
-        className="w-full max-h-[3878px] object-cover z-[10] absolute"
+        className="w-full min-h-[5850px] object-cover z-[10] absolute"
         src={BG}
         alt="Background Image"
       />
